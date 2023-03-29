@@ -1,5 +1,8 @@
 let contador = 4
 
+
+alert('Estou construindo uma lista de tarefas')
+
 function finalizarTarefa(elementoClicado){
     const tarefaFinalizada = elementoClicado.parentNode
     
