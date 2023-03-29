@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --gradiente-blue:rgb(30, 145, 207);
+    --gradiente-white:rgb(255, 255, 255);
+    --list-color:rgb(235, 234, 234);
+    --btn-color: rgb(123, 185, 224);
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 110px auto;
+    background: linear-gradient(var(--gradiente-blue), var(--gradiente-white) );
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 70%;
+    background: var(--gradiente-white);
+}
+
+.container .box-title{
+    background: var(--gradiente-blue);
+    color: var(--gradiente-white);
+    padding: 0.3rem;
+}
+
+.container .box-input{
+    display: flex;
+    align-items: center;
+}
+.container .box-input input{
+   width: 100%;
+   padding: 0.8rem;
+   border: none;
+}
+.container .box-input button{
+   width: 20%;
+   padding: 0.8rem;
+   border: none;
+   background: var(--btn-color);
+   color: var(--gradiente-white);
+}
+
+.container ul{
+    padding: 0.5rem;
+}
+.container ul li{
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(97, 95, 95);
+    cursor: pointer;
+}
+
+.container ul li:nth-child(2n+1){
+    background: var(--list-color);
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.finalizada{
+    font-style: italic;
+    text-decoration: line-through;
+}
