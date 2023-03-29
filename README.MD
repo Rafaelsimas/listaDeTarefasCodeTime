@@ -14,3 +14,18 @@ git commit -m'Descrição do projeto'
 ```
 git push
 ```
+### Como adicionar uma nova branch
+
+```
+git branch developer
+```
+### Como entrar na branch que eu criei
+
+```
+git checkout developer
+```
+### Como consultar a quantidade de branchs que tenho no projeto
+
+```
+git branch --list
+```
